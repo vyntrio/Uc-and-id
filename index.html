@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium UC Purchase</title>
+    <style>
+        body {
+            background-color: #0a192f;
+            color: #e6f1ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .banner {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background-color: #172a45;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .product-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .product-title {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #64ffda;
+        }
+        .product-price {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .buy-now {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .buy-now:hover {
+            background-color: #0056b3;
+        }
+        h1 {
+            text-align: center;
+            color: #64ffda;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.postimg.cc/6QhgC3kb/image-search-1752245026702.png" alt="Banner" class="banner">
+        <h1>PREMIUM UC SHOP</h1>
+        
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://i.postimg.cc/1tZRWF8y/image-search-1752389926343.jpg" alt="3850 UC" class="product-image">
+                <h3 class="product-title">3850 UC</h3>
+                <p class="product-price">₹349</p>
+                <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.postimg.cc/1tZRWF8y/image-search-1752389926343.jpg" alt="8100 UC" class="product-image">
+                <h3 class="product-title">8100 UC</h3>
+                <p class="product-price">₹649</p>
+                <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.postimg.cc/1tZRWF8y/image-search-1752389926343.jpg" alt="10K UC" class="product-image">
+                <h3 class="product-title">10K UC</h3>
+                <p class="product-price">₹749</p>
+                <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.postimg.cc/1tZRWF8y/image-search-1752389926343.jpg" alt="15K UC" class="product-image">
+                <h3 class="product-title">15K UC</h3>
+                <p class="product-price">₹1000</p>
+                <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.postimg.cc/1tZRWF8y/image-search-1752389926343.jpg" alt="20K UC" class="product-image">
+                <h3 class="product-title">20K UC</h3>
+                <p class="product-price">₹1500</p>
+                <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.postimg.cc/1tZRWF8y/image-search-1752389926343.jpg" alt="30K UC + M416 Glacier Max" class="product-image">
+                <h3 class="product-title">30K UC + M416 Glacier Max</h3>
+                <p class="product-price">₹2199</p>
+                <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
